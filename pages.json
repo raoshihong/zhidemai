@@ -1,0 +1,147 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+		,{
+		    "path" : "pages/shequ/shequ",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		}
+	    ,{
+            "path" : "pages/goodprice/goodprice",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/baike/baike",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/product-detail/product-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				// 使用自定义navigationBar
+				"navigationStyle":"custom"
+				// 使用自带navigationBar设置渐变效果
+                // "transparentTitle": "auto"
+            }
+        }
+        ,{
+            "path" : "pages/index/product-detail/product/product",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+            "path" : "pages/index/product-detail/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/product-detail/comment/comment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/shopinfo/shopinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/shequ/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"navigationStyle":"custom"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"backgroundColor":"#FFFFFF",
+		"selectedColor":"#d81e06",
+		"list":[
+			{
+				"iconPath":"static/tabar/home.png",
+				"selectedIconPath":"static/tabar/home_select.png",
+				"pagePath":"pages/index/index",
+				"text":"首页"
+			},
+			{
+				"iconPath":"static/tabar/社区.png",
+				"selectedIconPath":"static/tabar/社区_select.png",
+				"pagePath":"pages/shequ/shequ",
+				"text":"问答社区"
+			},
+			{
+				"iconPath":"static/tabar/健康百科.png",
+				"selectedIconPath":"static/tabar/健康百科_select.png",
+				"pagePath":"pages/baike/baike",
+				"text":"科学"
+			},
+			{
+				"iconPath":"static/tabar/闪电.png",
+				"selectedIconPath":"static/tabar/闪电_select.png",
+				"pagePath":"pages/goodprice/goodprice",
+				"text":"购物车"
+			},
+			{
+				"iconPath":"static/tabar/我的.png",
+				"selectedIconPath":"static/tabar/我的_select.png",
+				"pagePath":"pages/me/me",
+				"text":"我的"
+			}
+		]
+	}
+}

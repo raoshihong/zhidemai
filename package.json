@@ -1,0 +1,19 @@
+{
+    "id": "fui-checkbox",
+    "name": "Checkbox 复选框（fui-checkbox）",
+    "version": "v1.0.0",
+    "description": "Checkbox 多项选择器，需结合fui-checkbox-group和fui-checkbox组件一起使用。微信、百度、QQ小程序中还使用了fui-form-field组件（如果未使用easyco",
+    "keywords": [
+        "fui-checkbox",
+        "复选框",
+        "Checkbox",
+        "FirstUI",
+        "Nvue"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}
